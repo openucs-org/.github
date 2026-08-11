@@ -16,5 +16,4 @@ A modular, standards-faithful 5G Core (5GC) built in modern C++ for 3GPP Release
 
 The project aims to be a production-grade, spec-traceable reference implementation, expanded from its original lab-grade scope (see docs/DECISIONS.md, ADR-0009, for the reasoning behind that shift). The repo slug (5gc-r19) and technical identifiers (CMake project name, vcpkg package name) remain short and stable; the fuller name above is used for display purposes only. Every architectural decision made along the way, including ones ultimately rejected, is documented in docs/DECISIONS.md.
 
-A couple of notes: I tightened some phrasing ("meant to be generated" → "generated directly," "targets" → "aims to be") for a more confident, polished tone, and cleaned up minor redundancy. Let me know if you'd rather keep it closer to the original wording or want a shorter version.
 
