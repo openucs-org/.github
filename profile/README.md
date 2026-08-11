@@ -7,4 +7,8 @@ evolving landscape of digital telecom. Fostering a collaborative environment emp
 to harness the collective wisdom and expertise to develop agile, scalable, and effective charging solutions.
 
 ## Projects and Repositories
-https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main : Highly scalable 5G Core and AI based Charging system (Universal Charging System)
+https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main : AI enabled Universal Charging System and 5G Advanced Core 
+A modular, standards-faithful 5G Core (5GC) implementation in modern C++, targeting 3GPP Release 19 (5G-Advanced). Every Network Function's northbound API is meant to be generated from the official 3GPP OpenAPI YAML — never hand-written — with a TM Forum SID-aligned charging/BSS domain, a JSON-schema-driven operator GUI, and AI/ML pipelines wired into NWDAF.
+
+This targets a production-grade, spec-traceable reference implementation (raised from an original lab-grade scope — see docs/DECISIONS.md ADR-0009 for why and what that changed). Repo slug (5gc-r19) and technical identifiers (CMake project name, vcpkg package name) stay as short slugs; this is the display name. See docs/DECISIONS.md for every architectural choice made (and rejected) along the way.
+
