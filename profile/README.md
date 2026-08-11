@@ -7,6 +7,4 @@ evolving landscape of digital telecom. Fostering a collaborative environment emp
 to harness the collective wisdom and expertise to develop agile, scalable, and effective charging solutions.
 
 ## Projects and Repositories
-* [NRF](https://github.com/openucs-org/nrf-go)
-* [CHF](https://github.com/openucs-org/chf-cpp) -- Converged Charging Function (5G-SA Nchf_ConvergedCharging MVP)
-* [CHF AI Rating](https://github.com/openucs-org/chf-ai-rating) -- AI-based anomaly detection + adaptive quota, called by CHF
+https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main : Highly scalable 5G Core and AI based Charging system (Universal Charging System)
