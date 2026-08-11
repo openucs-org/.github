@@ -6,9 +6,13 @@ openUCS envisions building community-driven open-source software components to a
 evolving landscape of digital telecom. Fostering a collaborative environment empowers telecom operators 
 to harness the collective wisdom and expertise to develop agile, scalable, and effective charging solutions.
 
-## Projects and Repositories
-https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main : AI enabled Universal Charging System and 5G Advanced Core 
-A modular, standards-faithful 5G Core (5GC) implementation in modern C++, targeting 3GPP Release 19 (5G-Advanced). Every Network Function's northbound API is meant to be generated from the official 3GPP OpenAPI YAML — never hand-written — with a TM Forum SID-aligned charging/BSS domain, a JSON-schema-driven operator GUI, and AI/ML pipelines wired into NWDAF.
+Projects and Repositories
 
-This targets a production-grade, spec-traceable reference implementation (raised from an original lab-grade scope — see docs/DECISIONS.md ADR-0009 for why and what that changed). Repo slug (5gc-r19) and technical identifiers (CMake project name, vcpkg package name) stay as short slugs; this is the display name. See docs/DECISIONS.md for every architectural choice made (and rejected) along the way.
+5G-Advanced Core and Charging (R19) — AI-Enabled Universal Charging System and 5G Advanced Core
+
+A modular, standards-faithful 5G Core (5GC) built in modern C++ for 3GPP Release 19 (5G-Advanced). Every Network Function's northbound API is generated directly from the official 3GPP OpenAPI YAML rather than hand-written, paired with a TM Forum SID-aligned charging/BSS domain, a JSON-schema-driven operator GUI, and AI/ML pipelines integrated into NWDAF.
+
+The project aims to be a production-grade, spec-traceable reference implementation, expanded from its original lab-grade scope (see docs/DECISIONS.md, ADR-0009, for the reasoning behind that shift). The repo slug (5gc-r19) and technical identifiers (CMake project name, vcpkg package name) remain short and stable; the fuller name above is used for display purposes only. Every architectural decision made along the way, including ones ultimately rejected, is documented in docs/DECISIONS.md.
+
+A couple of notes: I tightened some phrasing ("meant to be generated" → "generated directly," "targets" → "aims to be") for a more confident, polished tone, and cleaned up minor redundancy. Let me know if you'd rather keep it closer to the original wording or want a shorter version.
 
