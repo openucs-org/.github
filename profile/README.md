@@ -2,18 +2,26 @@
 [![Slack](https://img.shields.io/badge/openUCS-slack-red?logo=slack&color=E01A59)](https://openucs.slack.com)
 
 ![openUCS logo](https://github.com/openucs-org/.github/assets/30368350/536843cd-649c-47b3-998b-714a735051b6)
-openUCS envisions building community-driven open-source software components to address the rapidly 
-evolving landscape of digital telecom. Fostering a collaborative environment empowers telecom operators 
-to harness the collective wisdom and expertise to develop agile, scalable, and effective charging solutions.
+A modular, standards-faithful 5G Core (5GC) and Charging (CHF + Online Charging, Gy/CAP) implementation in modern C++, targeting 3GPP R19 (5G-Advanced). R19 is what 3GPP itself brands 5G-Advanced; 6G has no stage-3 specification yet and nothing here implements it, so it is deliberately absent from the title. When Release 20 lands and 3GPP defines 6G, the intent is to carry this architecture forward and revisit the name then — a statement of direction, not a capability claim. Every Network Function's northbound API is meant to be generated from the official 3GPP OpenAPI YAML — never hand-written — with a TM Forum SID-aligned charging/BSS domain, a JSON-schema-driven operator GUI, and AI/ML pipelines wired into both NWDAF and the CHF. The charging half is the CHF of TS 32.290/32.291 plus the online-charging interfaces it terminates: Diameter Gy credit-control with quota and re-authorization, Sy spending limits, and CAMEL/CAP for the legacy voice estate. OCS is deliberately not used as the title — TS 32.296 defines that as its own network function, this does not implement it, and a title should not need a footnote to be true.
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/title-dark.svg">
+    <img src="docs/assets/title.svg"
+         alt="AI-Boosted 5G-Advanced Core and Charging — R19" width="920">
+  </picture>
+</p>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/motto-dark.svg">
+    <img src="docs/assets/motto.svg" alt="Built by AI. Built for AI. Bound by the spec."
+         width="760">
+  </picture>
+</p>
 Projects and Repositories
-
-5G-Advanced Core and Charging (R19) — AI-Enabled Universal Charging System and 5G Advanced Core
 
 https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main
 
-A modular, standards-faithful 5G Core (5GC) built in modern C++ for 3GPP Release 19 (5G-Advanced). Every Network Function's northbound API is generated directly from the official 3GPP OpenAPI YAML rather than hand-written, paired with a TM Forum SID-aligned charging/BSS domain, a JSON-schema-driven operator GUI, and AI/ML pipelines integrated into NWDAF.
-
-The project aims to be a production-grade, spec-traceable reference implementation, expanded from its original lab-grade scope (see docs/DECISIONS.md, ADR-0009, for the reasoning behind that shift). The repo slug (5gc-r19) and technical identifiers (CMake project name, vcpkg package name) remain short and stable; the fuller name above is used for display purposes only. Every architectural decision made along the way, including ones ultimately rejected, is documented in docs/DECISIONS.md.
 
 
