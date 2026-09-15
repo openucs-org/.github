@@ -20,7 +20,7 @@ A modular, standards-faithful 5G Core (5GC) and Charging (CHF + Online Charging,
   </picture>
 </p>
 Projects and Repositories
-
+![Architecture](https://github.com/prajithparan/AI-Boosted-5G-Advanced-Core-and-Charging-R19/blob/main/docs/diagrams/architecture.svg)
 [https://github.com/prajithparan/5G-Advanced-Core-and-Charging-R19/tree/main](https://github.com/prajithparan/AI-Boosted-5G-Advanced-Core-and-Charging-R19)
 
 
