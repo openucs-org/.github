@@ -7,7 +7,7 @@ A modular, standards-faithful 5G Core (5GC) and Charging (CHF + Online Charging,
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/title-dark.svg">
-    <img src="docs/assets/title.svg"
+    <img src="https://github.com/prajithparan/AI-Boosted-5G-Advanced-Core-and-Charging-R19/blob/main/docs/assets/SovereignAIBased.jpeg"
          alt="AI-Boosted 5G-Advanced Core and Charging — R19" width="920">
   </picture>
 </p>
