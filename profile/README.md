@@ -15,7 +15,7 @@ A modular, standards-faithful 5G Core (5GC) and Charging (CHF + Online Charging,
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="docs/assets/motto-dark.svg">
-    <img src="docs/assets/motto.svg" alt="Built by AI. Built for AI. Bound by the spec."
+    <img src="https://github.com/prajithparan/AI-Boosted-5G-Advanced-Core-and-Charging-R19/blob/main/docs/assets/motto.svg" alt="Built by AI. Built for AI. Bound by the spec."
          width="760">
   </picture>
 </p>
